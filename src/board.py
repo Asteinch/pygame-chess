@@ -93,6 +93,9 @@ class Chessboard:
 
         self.Black = (164,128,95)
         self.White = (236,218,185)
+
+        self.Black = pygame.Color("gray40")
+        self.White = pygame.Color("gray80")
         
         
     def draw_board(self):
